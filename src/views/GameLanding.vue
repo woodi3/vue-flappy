@@ -60,8 +60,8 @@ export default {
   methods: {
     setupPlayer: async function() {
       const size = {
-        width: 28 * this.scale,
-        height: 20 * this.scale
+        width: 22.5 * this.scale,
+        height: 15 * this.scale
       };
       const sprite = new Sprite();
       await sprite.setup({
